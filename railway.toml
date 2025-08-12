@@ -1,5 +1,5 @@
 [build]
-builder = "heroku/go"
+# Let Railway auto-detect the builder
 
 [deploy]
 healthcheckPath = "/health"
