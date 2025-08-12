@@ -1,6 +1,6 @@
 # WPMUDEV Accessibility Scanner API
 
-Professional website accessibility scanning service using Google Lighthouse via REST API.
+Website accessibility scanning service using Google Lighthouse via REST API.
 
 ## 🚀 Live API
 
