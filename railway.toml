@@ -1,0 +1,7 @@
+[build]
+builder = "heroku/go"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 300
+restartPolicyType = "always"
