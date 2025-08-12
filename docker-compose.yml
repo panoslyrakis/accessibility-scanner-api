@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  accessibility-api:
+    build: .
+    ports:
+      - "${PORT:-3001}:${PORT:-3001}"  # Use PORT from .env, fallback to 3001
+    env_file:
+      - .env  # Load all variables from .env file
+    restart: unless-stopped
